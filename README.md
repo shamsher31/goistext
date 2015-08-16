@@ -1,4 +1,4 @@
-# goimgext
+# goistext
 Check if filepath is a text file
 
 # How to install
