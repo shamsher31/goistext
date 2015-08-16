@@ -27,7 +27,7 @@ func main() {
 [go-archive](https://github.com/ferhatelmas/go-archive)
 
 # Why
-This package is inspired by [sindresorhus](https://www.npmjs.com/package/is-text-path) npm module to check if filepath is a text file.
+This package is inspired by [is-text-path](https://www.npmjs.com/package/is-text-path) npm module to check if filepath is a text file.
 
 # License
 MIT © [Shamsher Ansari](https://github.com/shamsher31)
