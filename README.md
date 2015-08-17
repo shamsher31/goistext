@@ -1,13 +1,13 @@
 # goistext
 Check if filepath is a text file
 
-# How to install
-<pre>
+### How to install
+```go
 go get github.com/shamsher31/goistext
-</pre>
+```
 
-# How to use
-<pre>
+### How to use
+```go
 package main
 
 import (
@@ -17,17 +17,33 @@ import (
 
 func main() {
 	fmt.Println(text.Is("./golang.txt"))
-  <!-- true -->
+    // true
 }
-</pre>
+```
 
-# Related
-[gotextext](https://github.com/shamsher31/gotextext)
-[go-binary](https://github.com/ferhatelmas/go-binary)
-[go-archive](https://github.com/ferhatelmas/go-archive)
+###Aliasing Imports
+If you already have package name ```text``` you can use following.
+```go
+package main
 
-# Why
-This package is inspired by [is-text-path](https://www.npmjs.com/package/is-text-path) npm module to check if filepath is a text file.
+import (
+	"fmt"
+	pckText "github.com/shamsher31/goistext"
+)
 
-# License
+func main() {
+	fmt.Println(pckText.Is("./golang.txt"))
+    // true
+}
+```
+
+### Related
+[gotextext](https://github.com/shamsher31/gotextext)<br>
+[go-binary](https://github.com/ferhatelmas/go-binary)<br>
+[go-archive](https://github.com/ferhatelmas/go-archive)<br>
+
+### Why
+This package is inspired by [is-text-path](https://www.npmjs.com/package/is-text-path) npm module.
+
+### License
 MIT © [Shamsher Ansari](https://github.com/shamsher31)
